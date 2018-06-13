@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>A+</title>
+    <!-- Пример подключения стилей из папки css -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container clearfix">  
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" height="82" width="182"></a>
+        </div>
+        <nav>
+          <ul class="main-menu clearfix">
+            <li><a href="#">Программа обучения</a></li>
+            <li><a href="#">Выпускники</a></li>
+            <li><a href="#">Как поступить</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <section class="introduction">
+          <h1>Учеба еще никогда не была такой интересной!</h1>
+          <p>Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах</p>
+        </section>
+        <aside class="promo">
+          <img src="img/items.png" height="451" width="653">
+        </aside>
+        <a class="btn btn-request" href="#">Подать заявку</a>
+      </div>
+    </header>
+
+    <main>
+      <article class="features">  
+        <nav class="container clearfix">
+          <ul class="feature-items clearfix">
+            <li>
+            <img src="img/icon-1.png" height="59" width="55">
+            <h1>Гибкий график обучения</h1>
+            <p>Современный темп жизни требует гибкого подхода к расписанию.</p>
+          </li>
+            <li>
+            <img src="img/icon-2.png" height="67" width="73">
+            <h1>Практические занятия</h1>
+            <p>На одной теории далеко не уедешь, поэтому мы обучаем на практике.</p>
+          </li>
+          <li>
+            <img src="img/icon-3.png" height="63" width="69">
+            <h1>Не оставим без работы</h1>
+            <p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
+          </li>
+          </ul>
+        </nav>
+      </article>
+      
+      <article class="educationForms">
+        <div class="container clearfix">
+        <h1 class="sectionTitle">Формы обучения</h1>
+        <table>
+          <tr>
+            <td class="grey">Название</td>
+            <td class="grey">Длительность</td>
+            <td class="grey">Описание</td>
+          </tr>
+          <tr>
+            <td class="bold">Дневное обучение</td>
+            <td class="bold">4 года</td>
+            <td>Наиболее интенсивный вариант обучение, для тех, кто не терпит компромиссов ни в чем.</td>
+          </tr>
+          <tr>
+            <td class="bold">Вечернее обучение</td>
+            <td class="bold">5 лет</td>
+            <td>Вынуждены совмещать учебу с работой? Дадим вам такую возможность, совмещайте на здоровье.</td>
+          </tr>
+        </table>
+      </div>
+      </article>
+
+      <article class="feedback">
+        <div class="container clearfix">
+        <h1 class="sectionTitle">Обратная связь</h1>
+        <aside>
+          <h1>Заинтересовались обучением на нашей кафедре?</h1>
+          <p>Заполните короткую форму обратной связи и отправьте нам</p>
+          <p>Мы подготовим для вас индивидуальное предложение  и выйдем на связь!</p>
+          <p><b>Внимание!</b> Все поля</br> обязательны для заполнения.</p>
+        </aside>
+        <form class="feedback-form" action="#" method="post">
+          <table>
+            <tr>
+              <td class="title">
+                <label for="fullname">ФИО:</label>
+              </td>
+              <td class="field">
+                <input type="text" name="fullname" id="fullname" placeholder="Представьтесь, пожалуйста">
+              </td>
+            </tr>
+            <tr>
+              <td class="title">
+                <label>Пол:</label>
+              </td>
+              <td class="field radio">
+                <input type="radio" id="man" name="gender" value="man" class="regular-radio"> 
+                <label for="man">Мужской</label>
+                <input type="radio" id="woman" name="gender" value="woman" class="regular-radio">
+                <label for="woman">Женский</label>
+              </td>
+            </tr>
+            <tr>
+              <td class="title">
+                <label for="message">Доп.текст:</label>
+              </td>
+              <td class="field">
+                <textarea name="message" id="message" placeholder="Сообщите все, что считаете нужным"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td class="title"></td>
+              <td class="field">
+                <input type="submit" class="btn" value="Отправить">
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      </article>
+    </main>
+    
+    <footer class="main-footer">
+      <div class="container clearfix">
+      <div class="logo footer-logo">
+        <a href="index.html"><img src="img/logo.png" height="82" width="182"></a>
+      </div>
+      
+      <div class="footer-menu">
+        <h3>Обучение</h3>
+        <ul>
+          <li><a href="#">Расписание</a></li>
+          <li><a href="#">Предметы</a></li>
+          <li><a href="#">Практика</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <h3>Выпускники</h3>
+        <ul>
+          <li><a href="#">Достижения</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Найти</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <h3>Как поступить</h3>
+        <ul>
+          <li><a href="#">На коммерцию</a></li>
+          <li><a href="#">Целевой набор</a></li>
+          <li><a href="#">На бюджет</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <h3>Контакты</h3>
+        <ul>
+          <li><a href="#">Обратная связь</a></li>
+          <li><a href="#">Схема проезда</a></li>
+          <li><a href="#">Телефон/факс</a></li>
+        </ul>
+      </div>
+    <div class="copyright">
+      <p>197101, г. Санкт-Петербург, пр. Кронверкский, д.49</p>
+    </div>
+    </div>
+    </footer>
+
+  </body>
+</html>
