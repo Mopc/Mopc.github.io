@@ -1,0 +1,7 @@
+@font-face {
+	font-family:"Code-Light";
+	src:url("fonts/CODE_Light.woff") format("woff");
+	src:url("CODE_Light.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
